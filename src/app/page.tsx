@@ -27,13 +27,10 @@ export default function Home() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
             <div className="relative flex justify-center">
               <div className="w-full max-w-md rounded-lg overflow-hidden shadow-lg">
-                <Image
+                <img
                   src="/images/me.jpg"
                   alt="马钰骁的个人照片"
-                  width={400}
-                  height={500}
                   className="w-full h-auto"
-                  priority
                 />
               </div>
             </div>
